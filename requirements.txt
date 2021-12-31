@@ -1,1 +1,16 @@
+Libraries needed:
 
+- Numpy
+- Pandas
+
+- MatplotLib
+- Seaborn
+- WordCloud
+
+- SkLearn
+- XGBoost
+
+- Time
+
+- JobLib
+- Dill
