@@ -1,6 +1,6 @@
 # Cas Kaggle Aprenentatge Computacional UAB 2021-22
 ### Nom: Sergi Cantón Simó
-### DATASET: Twitter and Reddit Sentimental analysis Dataset
+### DATASET: Twitter and Reddit Sentimental Analysis Dataset
 ### URL: [kaggle]https://www.kaggle.com/cosmos98/twitter-and-reddit-sentimental-analysis-dataset
 
 ## Datasets
