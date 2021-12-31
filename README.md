@@ -31,18 +31,8 @@ Finaly, we have done some extra analyisis. We have searched the most important w
 | Linear SVM | Default (C: 1) | 94.5% | Infinity |
 | -- | -- | -- | -- |
 
-Only one model has worked properly.
-Model				| Hiperparameters	| Accuracy 	| Time
------------------------------------------------------------------
-KNN					| Default			| 40.5% 	| 0.1 s
-SVC					| Polynomial kernel | None		| Infinity
-Logistic regression	| Default			| None		| Infinity
-Random forest		| Default			| None		| Infinity
-XG Boost			| Default			| None		| Infinity
-Linear SVC			| Default (C = 1)	| 94.5%		| 8 s
-
 ## Demo
-We can test our model using *python demo.py*
+We can test our model using *python demo.py*.
 
 ## Conclusions
 Our best model has been the linear SVC with default paramers, that is, C = 1. We have got an accuracy of approximately 94.5%.
