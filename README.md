@@ -3,8 +3,8 @@
 ### DATASET: Twitter and Reddit Sentimental analysis Dataset
 ### URL: [kaggle]https://www.kaggle.com/cosmos98/twitter-and-reddit-sentimental-analysis-dataset
 
-## Dataset
-In fact, there are two datasets. One of those datasets has text posts of Reddit, each of them labeled with three possible numbers: -1, 0 or 1. The label is -1 if a negative sentiment is expressed, 0 if a neutral sentiment is expressed and 1 if a positive sentiment is expressed. The other datset is formed by tweets from Twitter, labeled the same way as Reddit's.
+## Datasets
+There are two datasets. One of those datasets has text posts of Reddit, each of them labeled with three possible numbers: -1, 0 or 1. The label is -1 if a negative sentiment is expressed, 0 if a neutral sentiment is expressed and 1 if a positive sentiment is expressed. The other datset is formed by tweets from Twitter, labeled the same way as Reddit's.
 
 ## Objective/goal
 Our objective is to make a classifier to know automatically if a text message expresses a negative, neutral or positive sentiment.
