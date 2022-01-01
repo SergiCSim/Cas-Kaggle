@@ -1,6 +1,6 @@
 # Cas Kaggle Aprenentatge Computacional UAB 2021-22
 ### Nom: Sergi Cantón Simó
-### DATASET: Twitter and Reddit Sentimental Analysis Dataset
+### DATASET: Twitter and Reddit Sentimental analysis Dataset
 ### URL: [kaggle]https://www.kaggle.com/cosmos98/twitter-and-reddit-sentimental-analysis-dataset
 
 ## Datasets
@@ -10,15 +10,15 @@ There are two datasets. One of those datasets has text posts of Reddit, each of 
 Our objective is to make a classifier to know automatically if a text message expresses a negative, neutral or positive sentiment.
 
 ## Experiments
-Before starting creating our model, we have done some changes in our datasets. First, we have merged both datasets in one, but keeping Reddit and Twitter datasets. We have, also, dropped all rows with null values.
+Before starting creating our model, we have made some changes in our datasets. First, we have merged both datasets into one, but keeping Reddit and Twitter datasets. We have, also, dropped all rows with null values.
 
 Then, we have done a first analyisis of our datasets, plotting how many samples are with each label in each sample. He have also done a word cloud for each dataset to visualize which words appear the most.
 
-Once we have had an idea how our data is, we have built our classifier using TF-IDF matrices. After splitting data in train and test, we have tried to train six models. Finaly, we have chosen a linear SVC model and we have obtained it's best C parameter using grid search.
+Once we have had an idea of what our data are like, we have built our classifier using TF-IDF matrices. After splitting data in train and test, we have tried to train six models. Finally, we have chosen a linear SVC model and we have obtained its best C parameter using grid search.
 
-Later, we have tested our model classifying some texts.
+Later, we have tested our model by classifying some texts.
 
-Finaly, we have done some extra analyisis. We have searched the most important words to classify by label, and we have plotted precision-recall and ROC curves and we have computed also the confusion matrix of our test data.
+In the end, we have done some extra analyisis. We have searched the most important words to classify by label, and we have plotted precision-recall and ROC curves and we have computed also the confusion matrix of our test data.
 
 ## Model
 | Model | Hiperparameters | Accuracy | Time |
