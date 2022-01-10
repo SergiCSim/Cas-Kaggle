@@ -35,4 +35,6 @@ In the end, we have done some extra analyisis. We have searched the most importa
 We can test our model using *python demo.py*.
 
 ## Conclusions
-Our best model has been the linear SVC with default paramers, that is, C = 1. We have got an accuracy of approximately 94.5%.
+We have reached quite good accuracies. Furthermore, we have tested our classifier giving it some self-made text messages and it has classified our messages well. So we have checked by ourselves that it works properly.
+
+Nevertheless, there are some things that we coud improve in the future. For example, we could use some other libraries like TensorFlow to carry out our classification in a different way or using another model. To generalize more our model, we could also use messages from other social networks, like comments from Instagram, Wallapop or opinion blogs.
